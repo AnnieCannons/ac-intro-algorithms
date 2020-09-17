@@ -1,131 +1,275 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-	<title>AnnieCannons slides</title>
+    <title>AnnieCannons Intro to Algorithms slides</title>
 
-	<meta name="description" content="AnnieCannons class slides">
-	<meta name="author" content="AnnieCannons">
+    <meta name="description" content="AnnieCannons class slides" />
+    <meta name="author" content="AnnieCannons" />
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/league.css">
+    <link rel="icon" type="image/png" href="images/AC_Asterisk.png" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/league.css" />
 
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-	<!-- Printing and PDF exports -->
-	<script>
-	var link = document.createElement( 'link' );
-	link.rel = 'stylesheet';
-	link.type = 'text/css';
-	link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-	document.getElementsByTagName( 'head' )[0].appendChild( link );
-	</script>
-</head>
-<body>
-	<div class="reveal">
-		<div class="slides">
-
-		<section>
-			<h2>Algorithms</h2>
-		</section>
-
-		<section>
-            <h2>Computer Programming: Key Concepts</h2>
-            <p>Algorithms</p>
-            <p class="fragment">What are they?</p>
-            <p class="fragment" style="color:lightgreen">A repeatable process for determining the solution to a problem. </p>
-		</section>
-		
-		<section>
-			<img src="images/movie.png" alt="Movie Algorithm" width="500px">
-		</section>
-
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
         <section>
-            <h2>Algorithms in Daily Life</h2>
-            <ul>
-                <li class="fragment">Finding a fruit in the grocery store.</li>
-                <li class="fragment">Alphabetizing name tags.</li>
-                <li class="fragment">Re-organizing your kitchen to make finding stuff easier.</li>
-                <li class="fragment">Finding keys that you lost.</li>
-                <li class="fragment">Finding something good to watch on TV.</li>
-                <li class="fragment">Washing your car windows.</li>
-            </ul>
+          <h2>Algorithms</h2>
         </section>
 
         <section>
-            <h2>Create your own algorithm</h2>
-            <p>Design an algorithm for doing the laundry.</p>
+          <h2>Algorithms Review Study Guide</h2>
+          <p>
+            Click
+            <a
+              href="https://docs.google.com/document/d/1tDbwMK1sCatKNrzlVEAdDDPiAnVr-KL6Uel005fqkbc/edit?usp=sharing"
+              target="_blank"
+              >here</a
+            >
+            to view and make a copy for reference.
+          </p>
         </section>
 
-		<section>
-			<h2>How to think about algorithms</h2>
-			<p><a href="https://www.youtube.com/watch?v=6hfOvs8pY1k"><li>Algorithms, Pseudocode, and how to make solving problems more efficient</a></p>
-		</section>
+        <section>
+          <h2>Computer Programming: Key Concepts</h2>
+          <p>Algorithms</p>
+          <p class="fragment">What are they?</p>
+          <p class="fragment" style="color: lightgreen">
+            A repeatable process for determining the solution to a problem.
+          </p>
+        </section>
 
-		<section>
-            <h2>More on Algorithms: Your Brain and Your Computer</h2>
-            <ul>
-                <a href="https://www.khanacademy.org/computing/computer-science/algorithms"><li>Different types of algorithms as well as linear and binary search</li></a>
-                <a href="https://www.youtube.com/watch?v=JQhciTuD3E8"><li>For more on binary search!</li></a>
-            </ul>
-		</section>
-		
-		<section>
-            <h2>Problem Solving</h2>
-            <p>This method is helpful for programmers</p>
-            <ol>
-                <li class="fragment">Understand the problem — read or listen to the problem statement.</li>
-                <li class="fragment">Make a plan to solve the problem — use pictures, charts, graphs, systematic lists, objects,or act out the solution to help you devise a plan to solve the problem (In Computer Science, we call this plan an algorithm.)</li>
-                <li class="fragment">Carry out the plan — once the plan is conceived and understood, follow the plan. If you have planned well, this is the easy part.</li>
-                <li class="fragment">Review and reflect on how the problem was solved — once the problem is solved, reflect on the plan that was used.</li>
-            </ol>
-		</section>
-		
-		<section>
-			<h2>The Important of Pseudocoding</h2>
-			<p>Pseudocode means to write out the steps of solving a problem in plain language (before you start writing any code)</p>
-			<img src="images/step.png" alt="One Step At A Time">
-		</section>
+        <section>
+          <img src="images/movie.png" alt="Movie Algorithm" width="500px" />
+        </section>
 
-		<section>
-			<h2>Steps</h2>
-			<ol>
-				<li class="fragment">Make sure you fully understand the problem</li>
-				<li class="fragment">Look up any tools you might need</li>
-				<li class="fragment">Write down the inputs and outputs of the function</li>
-				<li class="fragment">List out the coding structures you might use (loops, variables, conditional statements)</li>
-				<li class="fragment">Write comments describing what you are going to do</li>
-				<li class="fragment">Look it over and then write the code!</li>
-			</ol>
-		</section>
+        <section>
+          <h2>Algorithms in Daily Life</h2>
+          <ul>
+            <li class="fragment">Finding a fruit in the grocery store.</li>
+            <li class="fragment">Alphabetizing name tags.</li>
+            <li class="fragment">
+              Re-organizing your kitchen to make finding stuff easier.
+            </li>
+            <li class="fragment">Finding keys that you lost.</li>
+            <li class="fragment">Finding something good to watch on TV.</li>
+            <li class="fragment">Washing your car windows.</li>
+          </ul>
+        </section>
 
-		<!-- Last Slide -->
-		<section style="text-align: left;">
-			<h1>THE END</h1>
-			<p>Thank you for your attention!</p>
-		</section>
-	</div>
-</div>
+        <section>
+          <h2>Create your own algorithm</h2>
+          <p>Design an algorithm for doing the laundry.</p>
+        </section>
 
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
+        <section>
+          <h2>How to think about algorithms</h2>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=6hfOvs8pY1k"
+              target="_blank"
+              ><li>
+                Algorithms, Pseudocode, and how to make solving problems more
+                efficient
+              </li></a
+            >
+          </p>
+        </section>
 
-<script>
-// More info https://github.com/hakimel/reveal.js#configuration
-Reveal.initialize({
-	history: true,
+        <section>
+          <h2>More on Algorithms: Your Brain and Your Computer</h2>
+          <ul>
+            <a
+              href="https://www.khanacademy.org/computing/computer-science/algorithms"
+              target="_blank"
+              ><li>
+                Different types of algorithms as well as linear and binary
+                search
+              </li></a
+            >
+            <a
+              href="https://www.youtube.com/watch?v=JQhciTuD3E8"
+              target="_blank"
+              ><li>For more on binary search!</li></a
+            >
+          </ul>
+        </section>
 
-	// More info https://github.com/hakimel/reveal.js#dependencies
-	dependencies: [
-		{ src: 'plugin/markdown/marked.js' },
-		{ src: 'plugin/markdown/markdown.js' },
-		{ src: 'plugin/notes/notes.js', async: true },
-		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-	]
-});
-</script>
-</body>
+        <section>
+          <h2>Problem-Solving Method</h2>
+          <ol>
+            <li class="fragment">
+              Understand the problem.
+              <ul>
+                <li>Read or listen to the problem statement.</li>
+                <li>What is the input?</li>
+                <li>What is the output?</li>
+              </ul>
+            </li>
+            <li class="fragment">
+              Make a plan to solve the problem.
+              <ul>
+                <li>
+                  Use pictures, charts, graphs, systematic lists, objects.
+                </li>
+                <li>Act out the solution to help you devise a plan.</li>
+                <li>In Computer Science, we call this plan an algorithm.</li>
+              </ul>
+            </li>
+            <li class="fragment">
+              Carry out the plan.
+              <ul>
+                <li>Once the plan is conceived and understood, follow it.</li>
+                <li>If you have planned well, this is the easy part.</li>
+              </ul>
+            </li>
+            <li class="fragment">
+              Review and reflect on how the problem was solved — once the
+              problem is solved, reflect on the plan that was used.
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>The Importance of Pseudocoding</h2>
+          <p>
+            To pseudocode is to write out the steps of solving a problem in
+            plain language (before you start writing any code).
+          </p>
+          <img src="images/step.png" alt="One Step At A Time" />
+        </section>
+
+        <section>
+          <h2>Pseudocoding Steps</h2>
+          <ol>
+            <li class="fragment">
+              Make sure you fully understand the problem.
+            </li>
+            <li class="fragment">Look up any tools you might need.</li>
+            <li class="fragment">
+              Write down the inputs and outputs of the function.
+            </li>
+            <li class="fragment">
+              List out the coding structures you might use (loops, variables,
+              conditional statements).
+            </li>
+            <li class="fragment">
+              Write comments describing what you are going to do.
+            </li>
+            <li class="fragment">Look it over and then write the code!</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Practice Pseudocoding</h2>
+          <p>Write pseudocode for the following programs (aka functions):</p>
+          <ul>
+            <li>makePBJSandwich</li>
+            <li>getGroceries</li>
+            <li>countByTwos</li>
+            <li>goUrbanForaging</li>
+            <li>telephoneGame</li>
+          </ul>
+          <a
+            href="https://github.com/AnnieCannons/ac-intro-algorithms/tree/gh-pages/images/pseudocode-practice.zip"
+            target="_blank"
+            ><p>Download Assets here</p></a
+          >
+          <p>IMPORTANT: Read the README.md file first!</p>
+          <p class="fragment">
+            Bonus: choose one program's pseudocode to write out the code.
+          </p>
+        </section>
+
+        <section>
+          <h2>Exercise!</h2>
+          <h3>Flex your algorithm muscles!</h3>
+          <a href="https://algorithm.codingdojo.com/" target="_blank"
+            ><img
+              src="images/coding-dojo-logo.png"
+              width="200px"
+              alt="Coding Dojo logo"
+            />
+          </a>
+          <div style="display: flex; justify-content: center">
+            <img src="images/exercise.gif" alt="Exercise Gif" width="200px" />
+            <a
+              href="https://trello.com/b/RQrD5Ye2/template-student-journey-phase-24-javascript"
+              target="_blank"
+            >
+              <img
+                src="images/trello-logo-blue.png"
+                alt="Trello Logo"
+                width="200px"
+            /></a>
+          </div>
+        </section>
+
+        <section>
+          <h2>Algorithms Roundup</h2>
+          <p>
+            Click
+            <a
+              href="https://docs.google.com/document/d/1tDbwMK1sCatKNrzlVEAdDDPiAnVr-KL6Uel005fqkbc/edit?usp=sharing"
+              target="_blank"
+              >here</a
+            >
+            to review.
+          </p>
+        </section>
+
+        <!-- Last Slide -->
+        <section style="text-align: left">
+          <h1>THE END</h1>
+          <p>Thank you for your attention!</p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/zoomin.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function () {
+              hljs.initHighlightingOnLoad();
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
 </html>
